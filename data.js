@@ -17,12 +17,12 @@ const portfolioData = {
     // ===== SKILLS - Real skills from uploaded portfolio =====
     skills: [
         { name: "JavaScript", level: 85, icon: "💻" },
-        { name: "Python & laravel", level: 88, icon: "🐍" },
-        { name: "C#", level: 82, icon: "⚡" },
-        { name: "PHP", level: 80, icon: "🌐" },
-        { name: "ASP.NET", level: 85, icon: "🔷" },
-        { name: "Flask", level: 83, icon: "🔥" },
-        { name: "Django", level: 78, icon: "🎯" },
+        { name: "Python", level: 88, icon: "🐍" },
+        { name: "ASP.NET with C#", level: 82, icon: "⚡" },
+        { name: "Cyber forensics", level: 80, icon: "🌐" },
+        { name: "PHP & laravel", level: 85, icon: "🔷" },
+        { name: "Firebase", level: 83, icon: "🔥" },
+        { name: "Django & Flask", level: 78, icon: "🎯" },
         { name: "MySQL", level: 85, icon: "🗄️" },
         { name: "Oracle", level: 75, icon: "🏛️" },
         { name: "AI/ML", level: 80, icon: "🤖" },
@@ -212,5 +212,6 @@ if (typeof module !== 'undefined' && module.exports) {
     module.exports = portfolioData;
 
 }
+
 
 
