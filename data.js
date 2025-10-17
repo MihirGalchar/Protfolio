@@ -188,7 +188,7 @@ const portfolioData = {
     // ===== SOCIAL LINKS - Real social links from uploaded portfolio =====
     social: {
         github: "https://github.com/mihirgalchar",
-        linkedin: "https://www.linkedin.com/in/mihir-galchar/",
+        linkedin: "https://www.linkedin.com/in/mihir-galchar",
       ///  twitter: "https://twitter.com/mihirgalchar",
         //instagram: "https://instagram.com/",
         email: "mailto:mihirgalchar39@gmail.com"
@@ -212,4 +212,5 @@ if (typeof module !== 'undefined' && module.exports) {
     module.exports = portfolioData;
 
 }
+
 
