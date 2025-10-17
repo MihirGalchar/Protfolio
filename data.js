@@ -7,8 +7,8 @@ const portfolioData = {
         title: "Full Stack Developer & AI Enthusiast",
         tagline: "Building the future, one line of code at a time",
         bio: "Aspiring software developer and AI enthusiast pursuing an MCA in Computer Science at Saurashtra University. Passionate about building fast, efficient web and app solutions and tackling AI-driven challenges. Seeking opportunities in forward-thinking companies to apply my programming, database, and development skills while advancing expertise and contributing to cutting-edge projects.",
-        profileImage: "./assets/m1.png",
-        aboutImage: "./assets/m2.png",
+        profileImage: "./m1.png",
+        aboutImage: "./m2.png",
         location: "Morbi Road, Rajkot-360003, Gujarat, India",
         email: "mihirgalchar39@gmail.com",
         phone: "+91-8238733586"
@@ -210,4 +210,5 @@ const portfolioData = {
 // Export for use in other files
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = portfolioData;
+
 }
