@@ -1,7 +1,4 @@
-// ===== CONTENT DATA - EDIT THIS FILE TO UPDATE PORTFOLIO CONTENT =====
-
 const portfolioData = {
-    // ===== PERSONAL INFORMATION =====
     personal: {
         name: "Mihir Galchar",
         title: "Full Stack Developer & AI Enthusiast",
@@ -11,25 +8,22 @@ const portfolioData = {
         aboutImage: "./m2.png",
         location: "Morbi Road, Rajkot-360003, Gujarat, India",
         email: "mihirgalchar39@gmail.com",
-        phone: "+91-8238733586"
+       
     },
-
-    // ===== SKILLS - Real skills from uploaded portfolio =====
     skills: [
         { name: "JavaScript", level: 85, icon: "💻" },
-        { name: "Python", level: 88, icon: "🐍" },
-        { name: "ASP.NET with C#", level: 82, icon: "⚡" },
-        { name: "Cyber forensics", level: 80, icon: "🌐" },
-        { name: "PHP & laravel", level: 85, icon: "🔷" },
-        { name: "Firebase", level: 83, icon: "🔥" },
-        { name: "Django & Flask", level: 78, icon: "🎯" },
+        { name: "Python & laravel", level: 88, icon: "🐍" },
+        { name: "C#", level: 82, icon: "⚡" },
+        { name: "PHP", level: 80, icon: "🌐" },
+        { name: "ASP.NET", level: 85, icon: "🔷" },
+        { name: "Flask", level: 83, icon: "🔥" },
+        { name: "Django", level: 78, icon: "🎯" },
         { name: "MySQL", level: 85, icon: "🗄️" },
         { name: "Oracle", level: 75, icon: "🏛️" },
         { name: "AI/ML", level: 80, icon: "🤖" },
         { name: "Figma", level: 80, icon: "🎨" } ,
     ],
 
-    // ===== PROJECTS - Real projects from uploaded portfolio =====
     projects: [
         {
             title: "Online Banking System",
@@ -63,7 +57,7 @@ const portfolioData = {
         }
     ],
 
-    // ===== EDUCATION - Real education from uploaded portfolio =====
+  
     education: [
         {
             degree: "Master's in Computer Applications (MCA)",
@@ -99,7 +93,7 @@ const portfolioData = {
         }
     ],
 
-    // ===== CERTIFICATES - Real certificates from uploaded portfolio =====
+  
    certificates: [
         {
             title: "Full Stack Web Development",
@@ -151,7 +145,6 @@ const portfolioData = {
         }
     ],
 
-    // ===== SERVICES - Real services from uploaded portfolio =====
     services: [
         {
             title: "Full-Stack Development",
@@ -185,16 +178,14 @@ const portfolioData = {
         }
     ],
 
-    // ===== SOCIAL LINKS - Real social links from uploaded portfolio =====
+    
     social: {
         github: "https://github.com/mihirgalchar",
-        linkedin: "https://www.linkedin.com/in/mihir-galchar",
-      ///  twitter: "https://twitter.com/mihirgalchar",
-        //instagram: "https://instagram.com/",
+        linkedin: "https://linkedin.com/in/mihirgalchar",
         email: "mailto:mihirgalchar39@gmail.com"
     },
 
-    // ===== HERO SECTION ANIMATIONS =====
+   
     heroAnimations: {
         typingTexts: [
             "Full Stack Developer",
@@ -207,11 +198,6 @@ const portfolioData = {
     }
 };
 
-// Export for use in other files
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = portfolioData;
-
 }
-
-
-
